@@ -5,4 +5,4 @@ make libs
 make clean all
 echo "aSSETS aSSETS aSSETS aSSETS aSSETS"
 cd front-end/public
-nohup python3 serve.py &> output.log &
+python3 serve.py

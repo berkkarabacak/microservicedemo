@@ -6,5 +6,5 @@ make clean all
 cd build
 export APP_PORT="1112"
 echo "NEWSFEED NEWSFEED NEWSFEED "
-nohup java -jar newsfeed.jar &> output.log &
+java -jar newsfeed.jar
 

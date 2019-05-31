@@ -11,4 +11,4 @@ make clean all
 cd build
 echo "FRONTEND FRONTEND FRONTEND FRONTEND FRONTEND"
 printenv
-nohup java -jar front-end.jar  &> output.log &
+java -jar front-end.jar
