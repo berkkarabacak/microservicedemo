@@ -10,4 +10,4 @@ make libs
 make clean all
 cd build
 printenv
-nohup java -jar front-end.jar &  >>  /home/berk/frontendlog.txt  
+nohup java -jar front-end.jar & 

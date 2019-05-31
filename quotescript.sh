@@ -5,4 +5,4 @@ make libs
 make clean all
 cd build
 export APP_PORT="1111"
-nohup java -jar quotes.jar & >>  /home/berk/quotelog.txt  
+nohup java -jar quotes.jar &
