@@ -1,5 +1,4 @@
-git clone https://github.com/berkkarabacak/microservicedemo.git
-cd microservicedemo
+#!/bin/sh
 sudo apt-get install leiningen -y
 sudo apt-get install build-essential -y
 make libs
