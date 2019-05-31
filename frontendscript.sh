@@ -10,4 +10,4 @@ make libs
 make clean all
 cd build
 printenv
-java -jar front-end.jar
+nohup java -jar front-end.jar &

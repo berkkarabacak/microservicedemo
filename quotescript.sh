@@ -5,4 +5,4 @@ make libs
 make clean all
 cd build
 export APP_PORT="1111"
-java -jar quotes.jar
+nohup java -jar quotes.jar &
