@@ -5,5 +5,5 @@ make libs
 make clean all
 cd build
 export APP_PORT="1112"
-nohup java -jar newsfeed.jar &  >> log.txt  
+nohup java -jar newsfeed.jar &  >>  /home/berk/newsfeedlog.txt  
 
